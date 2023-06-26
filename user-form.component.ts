@@ -102,7 +102,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
     `,
   ],
 })
-export class Error404Component implements OnInit {
+export class UserFormComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) {}
 
   userForm!: FormGroup;
