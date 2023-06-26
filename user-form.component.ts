@@ -103,9 +103,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   ],
 })
 export class UserFormComponent implements OnInit {
-  constructor(private formBuilder: FormBuilder) {}
-
   userForm!: FormGroup;
+
+  constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit() {
     this.userForm = this.formBuilder.group({
